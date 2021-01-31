@@ -253,7 +253,7 @@
 .skillset__left{
   flex-basis: 60%;
   background-color: var(--color-dark-grey);
-  padding: 20px 40px;
+  padding: 35px 60px;
 }
 
 .skillset__right{
@@ -276,6 +276,7 @@ flex-basis: 40%;
 }
 
 .skill{
+  margin-top:33px;
   margin-bottom: 30px;
 }
 
