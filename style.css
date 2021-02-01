@@ -94,12 +94,19 @@
 
   /* Navbar */
   #navbar {
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: var(--color-violet);
+    background-color:transparent;
     align-items:center;
+    padding: 10px;
     color: var(--color-white);
-    padding: 16px;
+    transition: all var(--animation-duration) ease-in-out;
+  }
+
+  #navbar.navbar--dark{
+    background-color: var(--color-violet);
   }
 
 .navbar_menu{
@@ -139,6 +146,7 @@
 #home{
   background: url("imgs/home_background.png") center/cover no-repeat;
   padding: 40px;
+  padding-top:120px;
   text-align: center;
 }
 
