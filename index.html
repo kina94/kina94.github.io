@@ -191,16 +191,17 @@
             <h1>My work</h1>
             <h3>Projects</h3>
             <div class="work__categories">
-                <button class="category__btn active">All<span class="category__count">8</span></button>
-                <button class="category__btn">Analytics<span class="category__count">5</span></button>
-                <button class="category__btn">Visualizing<span class="category__count">2</span></button>
-                <button class="category__btn">IoT<span class="category__count">1</span></button>
+                <button class="category__btn active" data-filter="*">All<span class="category__count">8</span></button>
+                <button class="category__btn" data-filter="Analytics">Analytics<span class="category__count">5</span></button>
+                <button class="category__btn" data-filter="Visualizing">Visualizing<span class="category__count">2</span></button>
+                <button class="category__btn" data-filter="IoT">IoT<span class="category__count">1</span></button>
             </div>
     
             <div class="work__projects">
                 <a href="http://github.com"
                 class="project"
-                target="blank">
+                target="blank"
+                data-type="Analytics">
                 <img src="" alt="준비중">
                 <!-- #png compressor로 이미지 크기 맞춰주기 -->
                 <div class="project__description"> 
@@ -210,7 +211,8 @@
                 </a>
                 <a href="http://github.com"
                 class="project"
-                target="blank">
+                target="blank"
+                data-type="Visualizing">
                 <img src="" alt="준비중">
                 <div class="project__description">
                     <h3>Youtube Site</h3>
@@ -219,7 +221,8 @@
                 </a>
                 <a href="http://github.com"
                 class="project"
-                target="blank">
+                target="blank"
+                data-type="IoT">
                 <img src="" alt="준비중">
                 <div class="project__description">
                     <h3>Youtube Site</h3>
